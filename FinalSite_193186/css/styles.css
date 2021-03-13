@@ -1,0 +1,40 @@
+body{
+	background-color: #F8FFE5;
+	background-image: url(../images/Sand.jpeg);
+	background-size: 100%;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 8em;
+	margin-top: 100px;
+}
+
+.images{
+	margin-top: 330px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.images p{
+	color: #5bc0de;
+}
+
+.card{
+	background-color: 
+}
+
+.icoon img{
+	width: 100px;
+	margin-top: 100px;
+	margin-left: 250px;
+}
+
+.icoon img:hover{
+	width: 105px;
+	margin-top:98px;
+	margin-left: 255px;
+}
+
+
