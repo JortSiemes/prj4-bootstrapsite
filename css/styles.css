@@ -1,7 +1,8 @@
 body{
-	background-color: #F8FFE5;
 	background-image: url(../images/Sand.jpeg);
 	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #C19A6B;
 }
 
 h1{
@@ -9,6 +10,12 @@ h1{
 	text-align: center;
 	font-size: 8em;
 	margin-top: 100px;
+}
+
+h4{
+	color: white;
+	text-align: right;
+	margin-top: 550px;
 }
 
 .images{
@@ -19,10 +26,6 @@ h1{
 
 .images p{
 	color: #5bc0de;
-}
-
-.card{
-	background-color: 
 }
 
 .icoon img{
