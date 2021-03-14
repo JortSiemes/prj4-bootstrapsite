@@ -1,26 +1,24 @@
 body{
 	background-image: url(../images/Sky.jpg);
 	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #C19A6B;
 }
 
 
 .jumbotron{
-
-	margin-left: 540px;
-	margin-right: 35px;
-	margin-bottom: 60px;
-	padding-bottom: 25px;
+	margin-top: 120px;
+	padding-bottom: 20px;
+	padding-top: 35px;
 	opacity: 0.9;
 }
 
 .icoon img{
 	width: 100px;
-	margin-top: 100px;
 	margin-left: 50px;
 }
 
 .icoon img:hover{
-	width: 105;
 	margin-left: 45px;
 }
 
@@ -29,4 +27,25 @@ body{
 	text-align: center;
 	font-size: 8em;
 	margin-top: 100px;
+}
+
+.map-container-5{
+padding-bottom:56.25%;
+height:0;
+}
+
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.kaart{
+	margin-top: 100px;
+}
+
+.onderdelen{
+	margin-top: 130px;
 }
