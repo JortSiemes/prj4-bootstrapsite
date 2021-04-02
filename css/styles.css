@@ -1,8 +1,9 @@
 body{
-	background-image: url(../images/Sand.jpeg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-color: #C19A6B;
+	background-image: url(../images/Sand.jpeg), url(../images/Sand.jpg);
+	background-size: 100%, 100%;
+	background-repeat: no-repeat, repeat-y;
+	background-color: #87ceeb;
+	background-position: 0px top, auto;
 }
 
 h1{
@@ -18,26 +19,33 @@ h4{
 	margin-top: 550px;
 }
 
-.images{
-	margin-top: 330px;
-	margin-left: 10px;
-	text-align: center;
+.title{
+	margin-bottom: 50px;
 }
 
-.images p{
-	color: #5bc0de;
+p{
+	color: #87ceeb;
 }
 
 .icoon img{
 	width: 100px;
 	margin-top: 100px;
-	margin-left: 250px;
+	margin-left: 0px;
+	margin-bottom: 20px;
 }
 
 .icoon img:hover{
 	width: 105px;
 	margin-top:98px;
-	margin-left: 255px;
+	margin-left: 5px; 
+	margin-bottom: 20px;
 }
 
+.cardoutline{
+	text-align: center;
+	margin-bottom: 50px;
+}
 
+.bovenkant{
+	margin-top: 25px;
+}
